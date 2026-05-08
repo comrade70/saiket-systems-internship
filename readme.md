@@ -104,6 +104,9 @@ Classification Report:
 weighted avg       0.80      0.81      0.80      1409
 ```
 
+We can also see the feature importance visualisation below, showing the impact of each feature on the prediction. Contract has the highest while SeniorCitizen feature has the least.
+
+[Feature Importance Visualisation](images\feature-importance-visualisation.jpg)
 
 ## Recommendations
 
