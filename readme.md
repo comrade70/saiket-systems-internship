@@ -1,5 +1,19 @@
 # Telco Customer Churn Analysis
 
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange)
+![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Visualization-4C72B0)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-F7931E?logo=scikitlearn)
+![Joblib](https://img.shields.io/badge/Joblib-Model%20Persistence-green)
+
+![Logistic Regression](https://img.shields.io/badge/Logistic%20Regression-Classification-blue)
+![Decision Tree](https://img.shields.io/badge/Decision%20Tree-Model-success)
+![Random Forest](https://img.shields.io/badge/Random%20Forest-Ensemble%20Learning-darkgreen)
+![XGBoost Classifier](https://img.shields.io/badge/XGBoost-Classifier-red)
+![GridSearchCV](https://img.shields.io/badge/GridSearchCV-Hyperparameter%20Tuning-purple)
+![StandardScaler](https://img.shields.io/badge/StandardScaler-Feature%20Scaling-yellowgreen)
+
 ## Problem Statement
 Customer churn remains a major challenge in the telecommunications industry. Telecom companies often struggle to identify customers who are likely to discontinue their services owing to factors such as charges, contract type, and tenure. Without a  predictive model, businesses may fail to implement timely retention strategies for at-risk customers, which ultimately affect their revenues and business continuity
 
@@ -10,18 +24,20 @@ In this project I have analysed customer churn in a historical dataset of a tele
 To achieve this, I performed a number of tasks which are highlighted in the workflow section. 
 
 
+## Dataset
+The project uses the following dataset:
+  
+- `Telco_Customer_Churn_Dataset.csv`
+
+The dataset includes attributes, such as gender, tenure, senior citizen status, monthly charges, total charges, payment method, contract types, diverse subscription services, and churn category.
+
+
 ## Language and Libraries
 - Python
 - Pandas
 - Matplotlib
+- Seaborn
 - SckitLearn
-
-
-## Dataset
-The project uses the following dataset:
-- `Telco_Customer_Churn_Dataset.csv`
-
-The dataset include attributes, including gender, tenure, senior citizen status, monthly charges, total charges, payment method contract types, diverse subscription services, and churn category.  
 
 
 ## Workflow
@@ -73,8 +89,10 @@ The performance metrics used for the models evaluation are:
 
 **Accuracy score** of 0.8055358410220014
 
-Classification Report: 
-               precision    recall  f1-score   support
+```text
+Classification Report:
+
+              precision    recall  f1-score   support
 
            0       0.85      0.90      0.87      1049
            1       0.65      0.52      0.58       360
@@ -82,6 +100,7 @@ Classification Report:
     accuracy                           0.81      1409
    macro avg       0.75      0.71      0.73      1409
 weighted avg       0.80      0.81      0.80      1409
+```
 
 
 ## Recommendations
@@ -91,14 +110,14 @@ weighted avg       0.80      0.81      0.80      1409
 
 2. Higher monthly charges may contribute to churn. Hence, review pricing strategies. 
 
-3. Encourage one year and two year contracts. Customers on long-term contracts are more stable.
+3. Encourage one-year and two-year contracts. Customers on long-term contracts are more stable.
 
 
 ### Machine Learning Recommendations
 
-1. Adding more evaluation metrics including Confusion Matrix.
+1. Adding more evaluation metrics including the Confusion Matrix.
 
-2. Non churn customer are far more than churn customers. Therefore, addressing this imbalance using SMOTE or class weight can improve churn predicion quality
+2. Non-churn customer are far more than churn customers. Therefore, addressing this imbalance using SMOTE or class weight can improve churn predicion quality
 
 3. Deploying the best performing model (XGB model) for use.
 
