@@ -15,7 +15,7 @@
 ![StandardScaler](https://img.shields.io/badge/StandardScaler-Feature%20Scaling-yellowgreen)
 
 ## Problem Statement
-Customer churn remains a major challenge in the telecommunications industry. Telecom companies often struggle to identify customers who are likely to discontinue their services owing to factors such as charges, contract type, and tenure. Without a  predictive model, businesses may fail to implement timely retention strategies for at-risk customers, which ultimately affects their revenues and business continuity
+Customer churn remains a major challenge in the telecommunications industry. Telecom companies often struggle to identify customers who are likely to discontinue service due to factors such as charges, contract type, and tenure. Without a  predictive model, businesses may fail to implement timely retention strategies for at-risk customers, which ultimately affects their revenues and business continuity
 
 
 ## Project Overview
@@ -26,8 +26,8 @@ To achieve this, I performed six tasks, which are highlighted in the workflow se
 
 ## Dataset
 The project uses the following dataset:
-  
-- `Telco_Customer_Churn_Dataset.csv`
+
+[Telco Customer Churn Dataset](dataset/Telco_Customer_Churn_Dataset.csv)
 
 The dataset includes attributes such as gender, tenure, senior citizen status, monthly charges, total charges, payment method, contract type, diverse subscription services, and churn category.
 
