@@ -31,6 +31,8 @@ The project uses the following dataset:
 
 The dataset includes attributes such as gender, tenure, senior citizen status, monthly charges, total charges, payment method, contract type, diverse subscription services, and churn category.
 
+The dataset contains 7,043 records, with a 26.54% churn rate (1,869 customers).
+
 
 ## Language and Libraries
 - Python
