@@ -1,4 +1,4 @@
-# Telco Customer Churn Analysis
+# Telco Customer Churn Analysis and Prediction
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas)
